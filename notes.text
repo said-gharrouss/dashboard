@@ -1,0 +1,86 @@
+1- ila kant a f west li w bghitha tshed lwidth kaml dyel li dirlha display:block;
+exmple : .sidebar ul li a{
+    display:block;
+}
+!!! kayna tari9a khora hiya dir ml a display:flex; 
+exmple : .sidebar ul li a{
+    display:flex;
+    align-item : center;
+}
+
+2- ila bghit l styles li f file css homa li ydiro ovired 3la styles li f framwork dyel css
+khask dir link dyel l file css hwa tali mn mor link dyel framwork
+
+3- ila bghit tsaybe size dyel scrollbar kadir ::-webkit-scrollbar 
+ila bghit tsaybe lbackground color dyel dak li kaykon mor scrollbar fash kattl3 wlla thwd kadir ::-webkit-scrollbar-track
+ila bghit tsaybe lbackground color dyel scrollbar kadir ::-webkit-scrollbar-thumb
+
+4- ila bghit dir shrta 3la shi ktba dir text-decoration: line-through;
+exmple : .tasks .done p{
+    text-decoration: line-through;
+}
+
+5- kat9der dir l element w lbefore wlla after dyalo display flex w kayji wa7d hda wa7d 
+
+6- ila bghit tbdel ghi lcharachter lwl f lklma trdo uppercase dir text-transform: capitalize;
+exmple : .latest-post .post-content{
+    text-transform: capitalize;
+}
+
+7- fash tbghit trd table 3ndo scrol f small screns khask dir table f div w div t3tih overflow-x: auto;
+w table t3tih wa7d min-width bash ykhdm scrol
+exmple : .projects .responsive-table{
+    overflow-x: auto;
+}
+.projects table {
+    min-width: 991px;
+}
+
+8- ila bghit t7eyd lblan dyel check l input checkbox dirlo appearance: none;
+exmple : .toggle-checkbox{
+    appearance: none;
+}
+
+9- textarea dima 3tiha min-height mashi height hit t9der twli 9sira f scren sghira
+
+10- ila bghit dir dak lblan dyel mat9dersh tktb f input dir disabled f input
+exmple : <input type="email" placeholder="blabla" disabled>
+
+11- ila bghit dir dak lblan dyel checkbox kyb9a ydor fash dir check khask dir 9bel check
+transform: scale(0) rotate(360deg); w mmnbe3d check dir transform: scale(1);
+exmple : .widgets-control .control label::after{
+    transform: scale(0) rotate(360deg);
+}
+.widgets-control .control input[type="checkbox"]:checked + label::after{
+    transform: scale(1);
+}
+
+12- khask darori dir nfs name l input radio bash trbt binathom bash fash dir checkd l shi input
+input lakhor t7yed mno checked
+exmple : <input type="radio" name="time" id="daily" checked />
+<input type="radio" name="time" id="weekly" />
+<input type="radio" name="time" id="monthly" />
+
+13- darori tsayeb dakshi dyel minmax() f lgrid f telephone wkha tkon dayer auto-fill
+exmple : 
+.projects-page {
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+@media (max-width: 767px) {
+    .projects-page {
+      grid-template-columns: minmax(200px, 1fr);
+      margin-left: 10px;
+      margin-right: 10px;
+      gap: 10px;
+    }
+}
+
+14- ila bghit shi div ykon 3ndo shi width ou yb9a yzid ou ykber l width f ash l width dyel screen yb9a yn9es 
+khask dir  dir l div min-width mashi width 
+exmple : .files-page .files-stats {
+    min-width: 260px;
+}
+
+
+
+
